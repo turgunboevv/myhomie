@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .container{
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+nav .search{
+    padding: 10px 30px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+nav .search input{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    color: gray;
+    font-size: 12px;
+
+}
+
+.logo .newlogo{
+    display: none;
+}
+
+nav .links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.hero .container{
+    margin: 0 auto;
+    background-image: url(../imgs/hero_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding-bottom: 100px;
+    /* min-height: 100vh; */
+}
+
+.hero .container h1, .hero .container p, .hero .container button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.hero .container h1{
+    width: 810px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 48px;
+}
+
+.hero .container p{
+    font-size: 25px;
+}
+
+.hero .container button{
+    font-size: 25px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    background-color: #343434;
+}
+
+/* .sec1 .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+} */
+
+.sec1 .container h1{
+    color: #343434;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 44px;
+}
+
+.cards{
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0  auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 348px;
+    text-align: center;
+}
+
+hr{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.sec2 .container h1{
+    color: #343434;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.box{
+    text-align: center;
+}
+
+.box .eyc3{
+    font-size: 24px;
+    color: #343434;
+}
+
+.box .eych{
+    color: #2B5DE9;
+    font-size: 18px;
+}
+
+.sec3 .container{
+    background-image: url(../imgs/section_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    min-height: 350px;
+}
+
+.sec3 .container h1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    padding-top: 150px;
+}
+
+.sec3 .container button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    background-color: #FF5555;
+    margin-top: 30px;
+}
+
+.sec4 .container{
+    background-color: #F0F2F6;
+    background-size: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.sec4 .container h1{
+    padding-top: 70px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    color: #343434;
+}
+
+.sec4 .container .box{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.sec4 .container .box .car{
+    display: flex;
+    align-items: start;
+    width: 496px;
+    text-align: start;
+    gap: 20px;
+}
+
+.box .car h2{
+    font-size: 20px;
+}
+
+.box .car p{
+    font-size: 16px;
+}
+
+.sec5 .container{
+    background-image: url(../imgs/section_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    min-height: 350px;
+    padding-bottom: 30px;
+}
+
+.sec5 .container h1{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    padding-top: 150px;
+}
+
+.sec5 .container button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    background-color: #FF5555;
+    margin-top: 30px;
+}
+
+footer .container{
+    padding-top: 30px;
+}
+
+.buyyer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.buyyer .onas .black{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.buyyer .onas p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.buyyer .onas .whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 467px){
+    nav .container{
+        padding: 20px 15px 30px 15px;
+    }
+    .logo .oldlogo{
+        display: none;
+    }
+    .logo .newlogo{
+        display: block;
+    }
+    nav .search{
+        display: none;
+    }
+    
+    nav .search input{
+        display: none;
+    }
+    .links .heart p{
+        display: none;
+    }
+    .links .man{
+        display: none;
+    }
+
+    .hero .container{
+        margin: 0 auto;
+        background-image: url(../imgs/media\ bg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        padding-bottom: 100px;
+        /* min-height: 100vh; */
+    }
+    .hero .container h1{
+        width: 355px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 27px;
+    }
+    
+    .hero .container p{
+        width: 237px;
+        font-size: 11px;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .hero .container button{
+        font-size: 25px;
+        padding: 5px 20px;
+        border: none;
+        color: white;
+        background-color: #343434;
+    }
+    .cards{
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0  auto;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .block{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .sec3 .container{
+        background-image: url(../imgs/sec1_bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-width: 100%;
+        min-height: 260px;
+    }
+    .sec3 .container h1{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-size: 27px;
+        padding-top: 90px;
+    }
+    
+    .sec3 .container button{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        padding: 5px 15px;
+        border: none;
+        color: white;
+        background-color: #FF5555;
+        margin-top: 30px;
+    }
+    .sec4 .container .box{
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 328px;
+        margin: 0 auto;
+        gap: 70px;
+    }
+    .sec4 .container .box .car{
+        display: flex;
+        align-items: center;
+        width: 496px;
+        /* text-align: start; */
+        gap: 20px;
+    }
+
+    .sec5 .container{
+        background-image: url(../imgs/lastsec_bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-width: 100%;
+        min-height: 350px;
+        padding-bottom: 30px;
+    }
+    .sec5 .container h1{
+        width: 370px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        padding-top: 70px;
+    }
+    
+    .sec5 .container button{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        padding: 5px 20px;
+        border: none;
+        color: white;
+        background-color: #FF5555;
+        margin-top: 30px;
+    }
+
+    footer .container{
+        padding: 30px 15px 30px 15px;
+    }
+}
